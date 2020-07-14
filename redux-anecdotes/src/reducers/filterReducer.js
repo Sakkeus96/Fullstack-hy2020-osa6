@@ -1,7 +1,6 @@
 const initialState = ''
 
 const reducer = (state = initialState, action) => {
-  console.log(state)
   switch(action.type) {
     case 'SET_FILTER':
       state = action.data.filter
